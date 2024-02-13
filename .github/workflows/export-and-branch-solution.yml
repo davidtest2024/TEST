@@ -27,7 +27,7 @@ on:
 env:
 #edit your values here
   ENVIRONMENT_URL: <https://make.powerapps.com/environments/Default-f926521e-0cde-404b-84af-812d6aa0c101/home?utm_source=office&utm_medium=app_launcher&utm_campaign=office_referrals>
-  USERNAME: <davidtest2024>
+  USERNAME: <davidhamilton@anctraining.onmicrosoft.com>
 
 permissions:
   contents: write
