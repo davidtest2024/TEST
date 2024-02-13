@@ -27,8 +27,8 @@ on:
 
 env:
 #edit your values here
-  ENVIRONMENT_URL: <'https://make.powerapps.com/environments/Default-f926521e-0cde-404b-84af-812d6aa0c101'>
-  USERNAME: '<davidhamilton@anctraining.onmicrosoft.com>'
+  ENVIRONMENT_URL: <https://make.powerapps.com/environments/Default-f926521e-0cde-404b-84af-812d6aa0c101>
+  USERNAME: <davidhamilton@anctraining.onmicrosoft.com>
 
 permissions:
   contents: write
