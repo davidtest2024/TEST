@@ -52,5 +52,5 @@ jobs:
       with:
         solution-folder: out/solutions/CDPDemo
         solution-target-folder: solutions/CDPDemo
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ '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' }}
         allow-empty-commit: true
