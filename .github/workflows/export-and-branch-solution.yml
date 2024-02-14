@@ -28,7 +28,7 @@ jobs:
       with:
         environment-url: 'https://make.powerapps.com/environments/Default-f926521e-0cde-404b-84af-812d6aa0c101'
         user-name: 'davidhamilton@anctraining.onmicrosoft.com'
-        password-secret: ${{ secrets.password }}
+        password-secret: ${{ 'RubyRosie2!' }}
 
     - name: export-solution action
       uses: microsoft/powerplatform-actions/export-solution@v0
