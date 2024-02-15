@@ -14,7 +14,7 @@ jobs:
       uses: microsoft/powerplatform-actions/export-solution@v1
       with:
         environment-url: 'https://make.powerapps.com/environments/Default-f926521e-0cde-404b-84af-812d6aa0c101'
-        user-name: 'davidhamilton@anctraining.onmicrosoft.com'
+        user-name: 'davidtest2024@outlook.com'
         password-secret: ${{ secrets.Test }}
         solution-name: CDPDemo
         solution-output-file: 'CDPDemo.zip'
@@ -32,7 +32,7 @@ jobs:
       uses: microsoft/powerplatform-actions/publish-solution@v1
       with:
         environment-url: 'https://make.powerapps.com/environments/Default-f926521e-0cde-404b-84af-812d6aa0c101'
-        user-name: 'davidhamilton@anctraining.onmicrosoft.com'
+        user-name: 'davidtest2024@outlook.com'
         password-secret: ${{ secrets.Test }}
 
     - name: Prepare solution changes for check-in into source control
