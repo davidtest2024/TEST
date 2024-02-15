@@ -13,8 +13,8 @@ jobs:
     - name: Export Solution
       uses: microsoft/powerplatform-actions/export-solution@v1
       with:
-        environment-url: 'https://make.powerapps.com/environments/Default-f926521e-0cde-404b-84af-812d6aa0c101'
-        user-name: 'davidtest2024@outlook.com'
+        environment-url: 'https://make.powerapps.com/environments/Default-f926521e-0cde-404b-84af-812d6aa0c101/solutions?utm_source=office&utm_medium=app_launcher&utm_campaign=office_referrals'
+        user-name: 'davidhamilton@anctraining.onmicrosoft.com'
         password-secret: ${{ secrets.Test }}
         solution-name: CDPDemo
         solution-output-file: 'CDPDemo.zip'
@@ -31,8 +31,8 @@ jobs:
     - name: Publish Solution
       uses: microsoft/powerplatform-actions/publish-solution@v1
       with:
-        environment-url: 'https://make.powerapps.com/environments/Default-f926521e-0cde-404b-84af-812d6aa0c101'
-        user-name: 'davidtest2024@outlook.com'
+        environment-url: 'https://make.powerapps.com/environments/Default-f926521e-0cde-404b-84af-812d6aa0c101/solutions?utm_source=office&utm_medium=app_launcher&utm_campaign=office_referrals'
+        user-name: 'davidhamilton@anctraining.onmicrosoft.com'
         password-secret: ${{ secrets.Test }}
 
     - name: Prepare solution changes for check-in into source control
