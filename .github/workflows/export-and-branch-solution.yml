@@ -26,8 +26,8 @@ jobs:
     - name: who-am-i action
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
-        environment-url: 'https://make.powerapps.com/environments/Default-f926521e-0cde-404b-84af-812d6aa0c101'
-        user-name: 'davidhamilton@anctraining.onmicrosoft.com'
+        environment-url: <https://make.powerapps.com/environments/Default-f926521e-0cde-404b-84af-812d6aa0c101>
+        user-name: <davidhamilton@anctraining.onmicrosoft.com>
         password-secret: ${{ 'RubyRosie2!' }}
 
     - name: export-solution action
